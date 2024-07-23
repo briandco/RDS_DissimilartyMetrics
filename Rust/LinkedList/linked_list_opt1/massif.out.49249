@@ -1,0 +1,1254 @@
+desc: (none)
+cmd: ./target/debug/linked_list_opt1
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=294226
+mem_heap_B=472
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=296464
+mem_heap_B=592
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=296637
+mem_heap_B=1616
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=297669
+mem_heap_B=1736
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=430719
+mem_heap_B=1736
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x491DD03: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x492DECF: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x492CCA3: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 1024 0x491F717: getdelim (iogetdelim.c:73)
+     n1: 1024 0x487D5A3: pthread_getattr_np (pthread_getattr_np.c:118)
+      n1: 1024 0x1296ED: get_stack_start (thread.rs:803)
+       n1: 1024 0x1296ED: get_stack_start_aligned (thread.rs:820)
+        n1: 1024 0x1296ED: init (thread.rs:852)
+         n1: 1024 0x1296ED: init (rt.rs:99)
+          n1: 1024 0x1296ED: {closure#1} (rt.rs:147)
+           n1: 1024 0x1296ED: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+            n1: 1024 0x1296ED: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+             n1: 1024 0x1296ED: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+              n1: 1024 0x1296ED: std::rt::lang_start_internal (rt.rs:147)
+               n0: 1024 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 472 0x491E92D: __fopen_internal (iofopen.c:65)
+  n1: 472 0x491E92D: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 472 0x487D4AA: pthread_getattr_np (pthread_getattr_np.c:81)
+    n1: 472 0x1296ED: get_stack_start (thread.rs:803)
+     n1: 472 0x1296ED: get_stack_start_aligned (thread.rs:820)
+      n1: 472 0x1296ED: init (thread.rs:852)
+       n1: 472 0x1296ED: init (rt.rs:99)
+        n1: 472 0x1296ED: {closure#1} (rt.rs:147)
+         n1: 472 0x1296ED: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+          n1: 472 0x1296ED: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+           n1: 472 0x1296ED: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+            n1: 472 0x1296ED: std::rt::lang_start_internal (rt.rs:147)
+             n0: 472 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 240 0x491F59D: getdelim (iogetdelim.c:102)
+  n1: 240 0x487D5A3: pthread_getattr_np (pthread_getattr_np.c:118)
+   n1: 240 0x1296ED: get_stack_start (thread.rs:803)
+    n1: 240 0x1296ED: get_stack_start_aligned (thread.rs:820)
+     n1: 240 0x1296ED: init (thread.rs:852)
+      n1: 240 0x1296ED: init (rt.rs:99)
+       n1: 240 0x1296ED: {closure#1} (rt.rs:147)
+        n1: 240 0x1296ED: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+         n1: 240 0x1296ED: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+          n1: 240 0x1296ED: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+           n1: 240 0x1296ED: std::rt::lang_start_internal (rt.rs:147)
+            n0: 240 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=430719
+mem_heap_B=1496
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=431760
+mem_heap_B=472
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=431887
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=432740
+mem_heap_B=32
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=433673
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=433757
+mem_heap_B=5
+mem_heap_extra_B=19
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=433940
+mem_heap_B=53
+mem_heap_extra_B=27
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=434834
+mem_heap_B=85
+mem_heap_extra_B=35
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=436132
+mem_heap_B=133
+mem_heap_extra_B=43
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=436964
+mem_heap_B=181
+mem_heap_extra_B=51
+mem_stacks_B=0
+heap_tree=detailed
+n5: 181 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 96 0x129E33: alloc (alloc.rs:98)
+  n1: 96 0x129E33: alloc_impl (alloc.rs:181)
+   n1: 96 0x129E33: allocate (alloc.rs:241)
+    n1: 96 0x129E33: {closure#0}<std::thread::Inner> (sync.rs:532)
+     n1: 96 0x129E33: allocate_for_layout<core::mem::maybe_uninit::MaybeUninit<std::thread::Inner>, alloc::sync::{impl#14}::new_uninit::{closure_env#0}<std::thread::Inner>, fn(*mut u8) -> *mut alloc::sync::ArcInner<core::mem::maybe_uninit::MaybeUninit<std::thread::Inner>>> (sync.rs:1800)
+      n1: 96 0x129E33: new_uninit<std::thread::Inner> (sync.rs:530)
+       n2: 96 0x129E33: std::thread::Thread::new (mod.rs:1284)
+        n1: 48 0x1118B0: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:475)
+         n1: 48 0x1118B0: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+          n1: 48 0x1118B0: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+           n1: 48 0x1118B0: std::thread::spawn (mod.rs:686)
+            n1: 48 0x110C0F: linked_list_opt1::main (main.rs:12)
+             n1: 48 0x110F72: call_once<fn(), ()> (function.rs:250)
+              n1: 48 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+               n1: 48 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+                n1: 48 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                 n1: 48 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                  n1: 48 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                   n1: 48 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                    n1: 48 0x1297D6: {closure#2} (rt.rs:148)
+                     n1: 48 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                      n1: 48 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                       n1: 48 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                        n1: 48 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                         n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+        n1: 48 0x1297C2: init (rt.rs:104)
+         n1: 48 0x1297C2: {closure#1} (rt.rs:147)
+          n1: 48 0x1297C2: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+           n1: 48 0x1297C2: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+            n1: 48 0x1297C2: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+             n1: 48 0x1297C2: std::rt::lang_start_internal (rt.rs:147)
+              n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 48 0x110BD1: alloc (alloc.rs:98)
+  n1: 48 0x110BD1: alloc_impl (alloc.rs:181)
+   n1: 48 0x110BD1: allocate (alloc.rs:241)
+    n1: 48 0x110BD1: exchange_malloc (alloc.rs:330)
+     n1: 48 0x110BD1: new<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::collections::linked_list::LinkedList<i32, alloc::alloc::Global>>>> (boxed.rs:217)
+      n1: 48 0x110BD1: new<std::sync::mutex::Mutex<alloc::collections::linked_list::LinkedList<i32, alloc::alloc::Global>>> (sync.rs:389)
+       n1: 48 0x110BD1: linked_list_opt1::main (main.rs:8)
+        n1: 48 0x110F72: call_once<fn(), ()> (function.rs:250)
+         n1: 48 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+          n1: 48 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+           n1: 48 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+            n1: 48 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+             n1: 48 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+              n1: 48 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+               n1: 48 0x1297D6: {closure#2} (rt.rs:148)
+                n1: 48 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                 n1: 48 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                  n1: 48 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                   n1: 48 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                    n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 32 0x48E31E2: __cxa_thread_atexit_impl (cxa_thread_atexit_impl.c:106)
+  n1: 32 0x12EC70: register_dtor<std::sys_common::thread_info::ThreadInfo> (fast_local.rs:158)
+   n1: 32 0x12EC70: __getit (fast_local.rs:54)
+    n1: 32 0x12EC70: try_with<std::sys_common::thread_info::ThreadInfo, std::sys_common::thread_info::set::{closure_env#0}, ()> (local.rs:269)
+     n1: 32 0x12EC70: with<std::sys_common::thread_info::ThreadInfo, std::sys_common::thread_info::set::{closure_env#0}, ()> (local.rs:246)
+      n1: 32 0x12EC70: std::sys_common::thread_info::set (thread_info.rs:44)
+       n1: 32 0x1297D0: init (rt.rs:105)
+        n1: 32 0x1297D0: {closure#1} (rt.rs:147)
+         n1: 32 0x1297D0: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+          n1: 32 0x1297D0: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+           n1: 32 0x1297D0: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+            n1: 32 0x1297D0: std::rt::lang_start_internal (rt.rs:147)
+             n0: 32 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 5 0x14CE64: alloc (alloc.rs:98)
+  n1: 5 0x14CE64: alloc_impl (alloc.rs:181)
+   n1: 5 0x14CE64: allocate (alloc.rs:241)
+    n1: 5 0x14CE64: allocate_in<u8, alloc::alloc::Global> (raw_vec.rs:184)
+     n1: 5 0x14CE64: with_capacity_in<u8, alloc::alloc::Global> (raw_vec.rs:130)
+      n1: 5 0x14CE64: with_capacity_in<u8, alloc::alloc::Global> (mod.rs:670)
+       n1: 5 0x14CE64: with_capacity<u8> (mod.rs:479)
+        n1: 5 0x14CE64: spec_new_impl_bytes (c_str.rs:287)
+         n1: 5 0x14CE64: <&str as alloc::ffi::c_str::CString::new::SpecNewImpl>::spec_new_impl (c_str.rs:306)
+          n1: 5 0x1297A8: new<&str> (c_str.rs:316)
+           n1: 5 0x1297A8: init (rt.rs:104)
+            n1: 5 0x1297A8: {closure#1} (rt.rs:147)
+             n1: 5 0x1297A8: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+              n1: 5 0x1297A8: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+               n1: 5 0x1297A8: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+                n1: 5 0x1297A8: std::rt::lang_start_internal (rt.rs:147)
+                 n0: 5 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n0: 0 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=437040
+mem_heap_B=229
+mem_heap_extra_B=59
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=437156
+mem_heap_B=261
+mem_heap_extra_B=67
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=437220
+mem_heap_B=277
+mem_heap_extra_B=75
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=438388
+mem_heap_B=309
+mem_heap_extra_B=83
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=445130
+mem_heap_B=597
+mem_heap_extra_B=91
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=449698
+mem_heap_B=629
+mem_heap_extra_B=99
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=449840
+mem_heap_B=597
+mem_heap_extra_B=91
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=449959
+mem_heap_B=629
+mem_heap_extra_B=99
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=450250
+mem_heap_B=653
+mem_heap_extra_B=115
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=450397
+mem_heap_B=1677
+mem_heap_extra_B=123
+mem_stacks_B=0
+heap_tree=detailed
+n10: 1677 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x10F801: alloc (alloc.rs:98)
+  n1: 1024 0x10F801: alloc_impl (alloc.rs:181)
+   n1: 1024 0x10F801: allocate (alloc.rs:241)
+    n1: 1024 0x10F801: allocate_in<u8, alloc::alloc::Global> (raw_vec.rs:184)
+     n1: 1024 0x10F801: with_capacity_in<u8, alloc::alloc::Global> (raw_vec.rs:130)
+      n1: 1024 0x10F801: with_capacity_in<u8, alloc::alloc::Global> (mod.rs:670)
+       n1: 1024 0x10F801: with_capacity<u8> (mod.rs:479)
+        n1: 1024 0x10F801: with_capacity<std::io::stdio::StdoutRaw> (bufwriter.rs:115)
+         n1: 1024 0x10F801: with_capacity<std::io::stdio::StdoutRaw> (linewriter.rs:109)
+          n1: 1024 0x10F801: new<std::io::stdio::StdoutRaw> (linewriter.rs:89)
+           n1: 1024 0x10F801: {closure#0} (stdio.rs:618)
+            n1: 1024 0x10F801: {closure#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}> (once_lock.rs:170)
+             n1: 1024 0x10F801: {closure#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !> (once_lock.rs:296)
+              n1: 1024 0x10F801: {closure#0}<std::sync::once_lock::{impl#0}::initialize::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !>> (once.rs:208)
+               n1: 1024 0x10F801: std::sys_common::once::futex::Once::call (futex.rs:124)
+                n1: 1024 0x10EEF9: call_once_force<std::sync::once_lock::{impl#0}::initialize::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !>> (once.rs:208)
+                 n1: 1024 0x10EEF9: std::sync::once_lock::OnceLock<T>::initialize (once_lock.rs:295)
+                  n1: 1024 0x12BC74: get_or_try_init<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !> (once_lock.rs:218)
+                   n1: 1024 0x12BC74: get_or_init<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}> (once_lock.rs:170)
+                    n1: 1024 0x12BC74: stdout (stdio.rs:618)
+                     n1: 1024 0x12BC74: print_to<std::io::stdio::Stdout> (stdio.rs:1020)
+                      n1: 1024 0x12BC74: std::io::stdio::_print (stdio.rs:1097)
+                       n1: 1024 0x111101: {closure#0} (main.rs:16)
+                        n1: 1024 0x111101: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+                         n1: 1024 0x111DD2: UnknownInlinedFun (mod.rs:529)
+                          n1: 1024 0x111DD2: UnknownInlinedFun (unwind_safe.rs:271)
+                           n1: 1024 0x111DD2: UnknownInlinedFun (panicking.rs:504)
+                            n1: 1024 0x111DD2: UnknownInlinedFun (panicking.rs:468)
+                             n1: 1024 0x111DD2: catch_unwind<core::panic::unwind_safe::AssertUnwindSafe<std::thread::{impl#0}::spawn_unchecked_::{closure#1}::{closure_env#0}<linked_list_opt1::main::{closure_env#0}, ()>>, ()> (panic.rs:142)
+                              n1: 1024 0x111DD2: {closure#1}<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:528)
+                               n1: 1024 0x111DD2: core::ops::function::FnOnce::call_once{{vtable-shim}} (function.rs:250)
+                                n1: 1024 0x131FA4: call_once<(), dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global> (boxed.rs:2007)
+                                 n1: 1024 0x131FA4: call_once<(), alloc::boxed::Box<dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global>, alloc::alloc::Global> (boxed.rs:2007)
+                                  n1: 1024 0x131FA4: std::sys::unix::thread::Thread::new::thread_start (thread.rs:108)
+                                   n1: 1024 0x487B608: start_thread (pthread_create.c:477)
+                                    n0: 1024 0x49BB352: clone (clone.S:95)
+ n1: 288 0x40149DA: allocate_dtv (dl-tls.c:286)
+  n1: 288 0x40149DA: _dl_allocate_tls (dl-tls.c:532)
+   n1: 288 0x487C322: allocate_stack (allocatestack.c:622)
+    n1: 288 0x487C322: pthread_create@@GLIBC_2.2.5 (pthread_create.c:660)
+     n1: 288 0x131DEE: std::sys::unix::thread::Thread::new (thread.rs:87)
+      n1: 288 0x111A3E: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:563)
+       n1: 288 0x111A3E: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+        n1: 288 0x111A3E: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+         n1: 288 0x111A3E: std::thread::spawn (mod.rs:686)
+          n1: 288 0x110C0F: linked_list_opt1::main (main.rs:12)
+           n1: 288 0x110F72: call_once<fn(), ()> (function.rs:250)
+            n1: 288 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+             n1: 288 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+              n1: 288 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+               n1: 288 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                n1: 288 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                 n1: 288 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                  n1: 288 0x1297D6: {closure#2} (rt.rs:148)
+                   n1: 288 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                    n1: 288 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                     n1: 288 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                      n1: 288 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                       n0: 288 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 96 0x129E33: alloc (alloc.rs:98)
+  n1: 96 0x129E33: alloc_impl (alloc.rs:181)
+   n1: 96 0x129E33: allocate (alloc.rs:241)
+    n1: 96 0x129E33: {closure#0}<std::thread::Inner> (sync.rs:532)
+     n1: 96 0x129E33: allocate_for_layout<core::mem::maybe_uninit::MaybeUninit<std::thread::Inner>, alloc::sync::{impl#14}::new_uninit::{closure_env#0}<std::thread::Inner>, fn(*mut u8) -> *mut alloc::sync::ArcInner<core::mem::maybe_uninit::MaybeUninit<std::thread::Inner>>> (sync.rs:1800)
+      n1: 96 0x129E33: new_uninit<std::thread::Inner> (sync.rs:530)
+       n2: 96 0x129E33: std::thread::Thread::new (mod.rs:1284)
+        n1: 48 0x1118B0: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:475)
+         n1: 48 0x1118B0: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+          n1: 48 0x1118B0: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+           n1: 48 0x1118B0: std::thread::spawn (mod.rs:686)
+            n1: 48 0x110C0F: linked_list_opt1::main (main.rs:12)
+             n1: 48 0x110F72: call_once<fn(), ()> (function.rs:250)
+              n1: 48 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+               n1: 48 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+                n1: 48 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                 n1: 48 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                  n1: 48 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                   n1: 48 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                    n1: 48 0x1297D6: {closure#2} (rt.rs:148)
+                     n1: 48 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                      n1: 48 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                       n1: 48 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                        n1: 48 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                         n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+        n1: 48 0x1297C2: init (rt.rs:104)
+         n1: 48 0x1297C2: {closure#1} (rt.rs:147)
+          n1: 48 0x1297C2: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+           n1: 48 0x1297C2: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+            n1: 48 0x1297C2: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+             n1: 48 0x1297C2: std::rt::lang_start_internal (rt.rs:147)
+              n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 64 0x48E31E2: __cxa_thread_atexit_impl (cxa_thread_atexit_impl.c:106)
+  n1: 64 0x12EC70: register_dtor<std::sys_common::thread_info::ThreadInfo> (fast_local.rs:158)
+   n1: 64 0x12EC70: __getit (fast_local.rs:54)
+    n1: 64 0x12EC70: try_with<std::sys_common::thread_info::ThreadInfo, std::sys_common::thread_info::set::{closure_env#0}, ()> (local.rs:269)
+     n1: 64 0x12EC70: with<std::sys_common::thread_info::ThreadInfo, std::sys_common::thread_info::set::{closure_env#0}, ()> (local.rs:246)
+      n2: 64 0x12EC70: std::sys_common::thread_info::set (thread_info.rs:44)
+       n1: 32 0x111DC8: {closure#1}<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:527)
+        n1: 32 0x111DC8: core::ops::function::FnOnce::call_once{{vtable-shim}} (function.rs:250)
+         n1: 32 0x131FA4: call_once<(), dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global> (boxed.rs:2007)
+          n1: 32 0x131FA4: call_once<(), alloc::boxed::Box<dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global>, alloc::alloc::Global> (boxed.rs:2007)
+           n1: 32 0x131FA4: std::sys::unix::thread::Thread::new::thread_start (thread.rs:108)
+            n1: 32 0x487B608: start_thread (pthread_create.c:477)
+             n0: 32 0x49BB352: clone (clone.S:95)
+       n1: 32 0x1297D0: init (rt.rs:105)
+        n1: 32 0x1297D0: {closure#1} (rt.rs:147)
+         n1: 32 0x1297D0: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+          n1: 32 0x1297D0: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+           n1: 32 0x1297D0: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+            n1: 32 0x1297D0: std::rt::lang_start_internal (rt.rs:147)
+             n0: 32 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 48 0x110BD1: alloc (alloc.rs:98)
+  n1: 48 0x110BD1: alloc_impl (alloc.rs:181)
+   n1: 48 0x110BD1: allocate (alloc.rs:241)
+    n1: 48 0x110BD1: exchange_malloc (alloc.rs:330)
+     n1: 48 0x110BD1: new<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::collections::linked_list::LinkedList<i32, alloc::alloc::Global>>>> (boxed.rs:217)
+      n1: 48 0x110BD1: new<std::sync::mutex::Mutex<alloc::collections::linked_list::LinkedList<i32, alloc::alloc::Global>>> (sync.rs:389)
+       n1: 48 0x110BD1: linked_list_opt1::main (main.rs:8)
+        n1: 48 0x110F72: call_once<fn(), ()> (function.rs:250)
+         n1: 48 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+          n1: 48 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+           n1: 48 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+            n1: 48 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+             n1: 48 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+              n1: 48 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+               n1: 48 0x1297D6: {closure#2} (rt.rs:148)
+                n1: 48 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                 n1: 48 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                  n1: 48 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                   n1: 48 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                    n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 48 0x111904: alloc (alloc.rs:98)
+  n1: 48 0x111904: alloc_impl (alloc.rs:181)
+   n1: 48 0x111904: allocate (alloc.rs:241)
+    n1: 48 0x111904: exchange_malloc (alloc.rs:330)
+     n1: 48 0x111904: new<alloc::sync::ArcInner<std::thread::Packet<()>>> (boxed.rs:217)
+      n1: 48 0x111904: new<std::thread::Packet<()>> (sync.rs:389)
+       n1: 48 0x111904: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:480)
+        n1: 48 0x111904: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+         n1: 48 0x111904: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+          n1: 48 0x111904: std::thread::spawn (mod.rs:686)
+           n1: 48 0x110C0F: linked_list_opt1::main (main.rs:12)
+            n1: 48 0x110F72: call_once<fn(), ()> (function.rs:250)
+             n1: 48 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+              n1: 48 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+               n1: 48 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                n1: 48 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                 n1: 48 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                  n1: 48 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                   n1: 48 0x1297D6: {closure#2} (rt.rs:148)
+                    n1: 48 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                     n1: 48 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                      n1: 48 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                       n1: 48 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                        n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 32 0x111A0A: alloc (alloc.rs:98)
+  n1: 32 0x111A0A: alloc_impl (alloc.rs:181)
+   n1: 32 0x111A0A: allocate (alloc.rs:241)
+    n1: 32 0x111A0A: exchange_malloc (alloc.rs:330)
+     n1: 32 0x111A0A: new<std::thread::{impl#0}::spawn_unchecked_::{closure_env#1}<linked_list_opt1::main::{closure_env#0}, ()>> (boxed.rs:217)
+      n1: 32 0x111A0A: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:566)
+       n1: 32 0x111A0A: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+        n1: 32 0x111A0A: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+         n1: 32 0x111A0A: std::thread::spawn (mod.rs:686)
+          n1: 32 0x110C0F: linked_list_opt1::main (main.rs:12)
+           n1: 32 0x110F72: call_once<fn(), ()> (function.rs:250)
+            n1: 32 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+             n1: 32 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+              n1: 32 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+               n1: 32 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                n1: 32 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                 n1: 32 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                  n1: 32 0x1297D6: {closure#2} (rt.rs:148)
+                   n1: 32 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                    n1: 32 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                     n1: 32 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                      n1: 32 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                       n0: 32 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 32 0x4897C04: _dlerror_run (dlerror.c:148)
+  n1: 32 0x4897524: dlsym (dlsym.c:70)
+   n1: 32 0x10F36A: fetch (weak.rs:138)
+    n1: 32 0x10F36A: std::sys::unix::weak::DlsymWeak<F>::initialize (weak.rs:125)
+     n1: 32 0x131E7B: get<unsafe extern "C" fn(*const libc::unix::linux_like::linux::gnu::b64::x86_64::pthread_attr_t) -> usize> (weak.rs:92)
+      n1: 32 0x131E7B: min_stack_size (thread.rs:996)
+       n1: 32 0x131E7B: std::sys::unix::thread::Thread::new (thread.rs:69)
+        n1: 32 0x111A3E: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:563)
+         n1: 32 0x111A3E: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+          n1: 32 0x111A3E: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+           n1: 32 0x111A3E: std::thread::spawn (mod.rs:686)
+            n1: 32 0x110C0F: linked_list_opt1::main (main.rs:12)
+             n1: 32 0x110F72: call_once<fn(), ()> (function.rs:250)
+              n1: 32 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+               n1: 32 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+                n1: 32 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                 n1: 32 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                  n1: 32 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                   n1: 32 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                    n1: 32 0x1297D6: {closure#2} (rt.rs:148)
+                     n1: 32 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                      n1: 32 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                       n1: 32 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                        n1: 32 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                         n0: 32 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 24 0x111072: UnknownInlinedFun (alloc.rs:98)
+  n1: 24 0x111072: UnknownInlinedFun (alloc.rs:181)
+   n1: 24 0x111072: UnknownInlinedFun (alloc.rs:241)
+    n1: 24 0x111072: UnknownInlinedFun (mod.rs:375)
+     n1: 24 0x111072: UnknownInlinedFun (boxed.rs:486)
+      n1: 24 0x111072: UnknownInlinedFun (boxed.rs:448)
+       n1: 24 0x111072: UnknownInlinedFun (boxed.rs:382)
+        n1: 24 0x111072: UnknownInlinedFun (linked_list.rs:894)
+         n1: 24 0x111072: {closure#0} (main.rs:15)
+          n1: 24 0x111072: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+           n1: 24 0x111DD2: UnknownInlinedFun (mod.rs:529)
+            n1: 24 0x111DD2: UnknownInlinedFun (unwind_safe.rs:271)
+             n1: 24 0x111DD2: UnknownInlinedFun (panicking.rs:504)
+              n1: 24 0x111DD2: UnknownInlinedFun (panicking.rs:468)
+               n1: 24 0x111DD2: catch_unwind<core::panic::unwind_safe::AssertUnwindSafe<std::thread::{impl#0}::spawn_unchecked_::{closure#1}::{closure_env#0}<linked_list_opt1::main::{closure_env#0}, ()>>, ()> (panic.rs:142)
+                n1: 24 0x111DD2: {closure#1}<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:528)
+                 n1: 24 0x111DD2: core::ops::function::FnOnce::call_once{{vtable-shim}} (function.rs:250)
+                  n1: 24 0x131FA4: call_once<(), dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global> (boxed.rs:2007)
+                   n1: 24 0x131FA4: call_once<(), alloc::boxed::Box<dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global>, alloc::alloc::Global> (boxed.rs:2007)
+                    n1: 24 0x131FA4: std::sys::unix::thread::Thread::new::thread_start (thread.rs:108)
+                     n1: 24 0x487B608: start_thread (pthread_create.c:477)
+                      n0: 24 0x49BB352: clone (clone.S:95)
+ n0: 21 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=451354
+mem_heap_B=1701
+mem_heap_extra_B=139
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=452348
+mem_heap_B=1725
+mem_heap_extra_B=155
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=453342
+mem_heap_B=1749
+mem_heap_extra_B=171
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=454336
+mem_heap_B=1773
+mem_heap_extra_B=187
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=455330
+mem_heap_B=1797
+mem_heap_extra_B=203
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=456324
+mem_heap_B=1821
+mem_heap_extra_B=219
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=457318
+mem_heap_B=1845
+mem_heap_extra_B=235
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=458312
+mem_heap_B=1869
+mem_heap_extra_B=251
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=459306
+mem_heap_B=1893
+mem_heap_extra_B=267
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=460318
+mem_heap_B=1893
+mem_heap_extra_B=267
+mem_stacks_B=0
+heap_tree=peak
+n10: 1893 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x10F801: alloc (alloc.rs:98)
+  n1: 1024 0x10F801: alloc_impl (alloc.rs:181)
+   n1: 1024 0x10F801: allocate (alloc.rs:241)
+    n1: 1024 0x10F801: allocate_in<u8, alloc::alloc::Global> (raw_vec.rs:184)
+     n1: 1024 0x10F801: with_capacity_in<u8, alloc::alloc::Global> (raw_vec.rs:130)
+      n1: 1024 0x10F801: with_capacity_in<u8, alloc::alloc::Global> (mod.rs:670)
+       n1: 1024 0x10F801: with_capacity<u8> (mod.rs:479)
+        n1: 1024 0x10F801: with_capacity<std::io::stdio::StdoutRaw> (bufwriter.rs:115)
+         n1: 1024 0x10F801: with_capacity<std::io::stdio::StdoutRaw> (linewriter.rs:109)
+          n1: 1024 0x10F801: new<std::io::stdio::StdoutRaw> (linewriter.rs:89)
+           n1: 1024 0x10F801: {closure#0} (stdio.rs:618)
+            n1: 1024 0x10F801: {closure#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}> (once_lock.rs:170)
+             n1: 1024 0x10F801: {closure#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !> (once_lock.rs:296)
+              n1: 1024 0x10F801: {closure#0}<std::sync::once_lock::{impl#0}::initialize::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !>> (once.rs:208)
+               n1: 1024 0x10F801: std::sys_common::once::futex::Once::call (futex.rs:124)
+                n1: 1024 0x10EEF9: call_once_force<std::sync::once_lock::{impl#0}::initialize::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !>> (once.rs:208)
+                 n1: 1024 0x10EEF9: std::sync::once_lock::OnceLock<T>::initialize (once_lock.rs:295)
+                  n1: 1024 0x12BC74: get_or_try_init<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !> (once_lock.rs:218)
+                   n1: 1024 0x12BC74: get_or_init<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}> (once_lock.rs:170)
+                    n1: 1024 0x12BC74: stdout (stdio.rs:618)
+                     n1: 1024 0x12BC74: print_to<std::io::stdio::Stdout> (stdio.rs:1020)
+                      n1: 1024 0x12BC74: std::io::stdio::_print (stdio.rs:1097)
+                       n1: 1024 0x111101: {closure#0} (main.rs:16)
+                        n1: 1024 0x111101: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+                         n1: 1024 0x111DD2: UnknownInlinedFun (mod.rs:529)
+                          n1: 1024 0x111DD2: UnknownInlinedFun (unwind_safe.rs:271)
+                           n1: 1024 0x111DD2: UnknownInlinedFun (panicking.rs:504)
+                            n1: 1024 0x111DD2: UnknownInlinedFun (panicking.rs:468)
+                             n1: 1024 0x111DD2: catch_unwind<core::panic::unwind_safe::AssertUnwindSafe<std::thread::{impl#0}::spawn_unchecked_::{closure#1}::{closure_env#0}<linked_list_opt1::main::{closure_env#0}, ()>>, ()> (panic.rs:142)
+                              n1: 1024 0x111DD2: {closure#1}<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:528)
+                               n1: 1024 0x111DD2: core::ops::function::FnOnce::call_once{{vtable-shim}} (function.rs:250)
+                                n1: 1024 0x131FA4: call_once<(), dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global> (boxed.rs:2007)
+                                 n1: 1024 0x131FA4: call_once<(), alloc::boxed::Box<dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global>, alloc::alloc::Global> (boxed.rs:2007)
+                                  n1: 1024 0x131FA4: std::sys::unix::thread::Thread::new::thread_start (thread.rs:108)
+                                   n1: 1024 0x487B608: start_thread (pthread_create.c:477)
+                                    n0: 1024 0x49BB352: clone (clone.S:95)
+ n1: 288 0x40149DA: allocate_dtv (dl-tls.c:286)
+  n1: 288 0x40149DA: _dl_allocate_tls (dl-tls.c:532)
+   n1: 288 0x487C322: allocate_stack (allocatestack.c:622)
+    n1: 288 0x487C322: pthread_create@@GLIBC_2.2.5 (pthread_create.c:660)
+     n1: 288 0x131DEE: std::sys::unix::thread::Thread::new (thread.rs:87)
+      n1: 288 0x111A3E: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:563)
+       n1: 288 0x111A3E: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+        n1: 288 0x111A3E: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+         n1: 288 0x111A3E: std::thread::spawn (mod.rs:686)
+          n1: 288 0x110C0F: linked_list_opt1::main (main.rs:12)
+           n1: 288 0x110F72: call_once<fn(), ()> (function.rs:250)
+            n1: 288 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+             n1: 288 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+              n1: 288 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+               n1: 288 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                n1: 288 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                 n1: 288 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                  n1: 288 0x1297D6: {closure#2} (rt.rs:148)
+                   n1: 288 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                    n1: 288 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                     n1: 288 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                      n1: 288 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                       n0: 288 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 240 0x111072: UnknownInlinedFun (alloc.rs:98)
+  n1: 240 0x111072: UnknownInlinedFun (alloc.rs:181)
+   n1: 240 0x111072: UnknownInlinedFun (alloc.rs:241)
+    n1: 240 0x111072: UnknownInlinedFun (mod.rs:375)
+     n1: 240 0x111072: UnknownInlinedFun (boxed.rs:486)
+      n1: 240 0x111072: UnknownInlinedFun (boxed.rs:448)
+       n1: 240 0x111072: UnknownInlinedFun (boxed.rs:382)
+        n1: 240 0x111072: UnknownInlinedFun (linked_list.rs:894)
+         n1: 240 0x111072: {closure#0} (main.rs:15)
+          n1: 240 0x111072: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+           n1: 240 0x111DD2: UnknownInlinedFun (mod.rs:529)
+            n1: 240 0x111DD2: UnknownInlinedFun (unwind_safe.rs:271)
+             n1: 240 0x111DD2: UnknownInlinedFun (panicking.rs:504)
+              n1: 240 0x111DD2: UnknownInlinedFun (panicking.rs:468)
+               n1: 240 0x111DD2: catch_unwind<core::panic::unwind_safe::AssertUnwindSafe<std::thread::{impl#0}::spawn_unchecked_::{closure#1}::{closure_env#0}<linked_list_opt1::main::{closure_env#0}, ()>>, ()> (panic.rs:142)
+                n1: 240 0x111DD2: {closure#1}<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:528)
+                 n1: 240 0x111DD2: core::ops::function::FnOnce::call_once{{vtable-shim}} (function.rs:250)
+                  n1: 240 0x131FA4: call_once<(), dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global> (boxed.rs:2007)
+                   n1: 240 0x131FA4: call_once<(), alloc::boxed::Box<dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global>, alloc::alloc::Global> (boxed.rs:2007)
+                    n1: 240 0x131FA4: std::sys::unix::thread::Thread::new::thread_start (thread.rs:108)
+                     n1: 240 0x487B608: start_thread (pthread_create.c:477)
+                      n0: 240 0x49BB352: clone (clone.S:95)
+ n1: 96 0x129E33: alloc (alloc.rs:98)
+  n1: 96 0x129E33: alloc_impl (alloc.rs:181)
+   n1: 96 0x129E33: allocate (alloc.rs:241)
+    n1: 96 0x129E33: {closure#0}<std::thread::Inner> (sync.rs:532)
+     n1: 96 0x129E33: allocate_for_layout<core::mem::maybe_uninit::MaybeUninit<std::thread::Inner>, alloc::sync::{impl#14}::new_uninit::{closure_env#0}<std::thread::Inner>, fn(*mut u8) -> *mut alloc::sync::ArcInner<core::mem::maybe_uninit::MaybeUninit<std::thread::Inner>>> (sync.rs:1800)
+      n1: 96 0x129E33: new_uninit<std::thread::Inner> (sync.rs:530)
+       n2: 96 0x129E33: std::thread::Thread::new (mod.rs:1284)
+        n1: 48 0x1118B0: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:475)
+         n1: 48 0x1118B0: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+          n1: 48 0x1118B0: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+           n1: 48 0x1118B0: std::thread::spawn (mod.rs:686)
+            n1: 48 0x110C0F: linked_list_opt1::main (main.rs:12)
+             n1: 48 0x110F72: call_once<fn(), ()> (function.rs:250)
+              n1: 48 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+               n1: 48 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+                n1: 48 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                 n1: 48 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                  n1: 48 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                   n1: 48 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                    n1: 48 0x1297D6: {closure#2} (rt.rs:148)
+                     n1: 48 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                      n1: 48 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                       n1: 48 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                        n1: 48 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                         n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+        n1: 48 0x1297C2: init (rt.rs:104)
+         n1: 48 0x1297C2: {closure#1} (rt.rs:147)
+          n1: 48 0x1297C2: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+           n1: 48 0x1297C2: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+            n1: 48 0x1297C2: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+             n1: 48 0x1297C2: std::rt::lang_start_internal (rt.rs:147)
+              n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 64 0x48E31E2: __cxa_thread_atexit_impl (cxa_thread_atexit_impl.c:106)
+  n1: 64 0x12EC70: register_dtor<std::sys_common::thread_info::ThreadInfo> (fast_local.rs:158)
+   n1: 64 0x12EC70: __getit (fast_local.rs:54)
+    n1: 64 0x12EC70: try_with<std::sys_common::thread_info::ThreadInfo, std::sys_common::thread_info::set::{closure_env#0}, ()> (local.rs:269)
+     n1: 64 0x12EC70: with<std::sys_common::thread_info::ThreadInfo, std::sys_common::thread_info::set::{closure_env#0}, ()> (local.rs:246)
+      n2: 64 0x12EC70: std::sys_common::thread_info::set (thread_info.rs:44)
+       n1: 32 0x111DC8: {closure#1}<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:527)
+        n1: 32 0x111DC8: core::ops::function::FnOnce::call_once{{vtable-shim}} (function.rs:250)
+         n1: 32 0x131FA4: call_once<(), dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global> (boxed.rs:2007)
+          n1: 32 0x131FA4: call_once<(), alloc::boxed::Box<dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global>, alloc::alloc::Global> (boxed.rs:2007)
+           n1: 32 0x131FA4: std::sys::unix::thread::Thread::new::thread_start (thread.rs:108)
+            n1: 32 0x487B608: start_thread (pthread_create.c:477)
+             n0: 32 0x49BB352: clone (clone.S:95)
+       n1: 32 0x1297D0: init (rt.rs:105)
+        n1: 32 0x1297D0: {closure#1} (rt.rs:147)
+         n1: 32 0x1297D0: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+          n1: 32 0x1297D0: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+           n1: 32 0x1297D0: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+            n1: 32 0x1297D0: std::rt::lang_start_internal (rt.rs:147)
+             n0: 32 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 48 0x110BD1: alloc (alloc.rs:98)
+  n1: 48 0x110BD1: alloc_impl (alloc.rs:181)
+   n1: 48 0x110BD1: allocate (alloc.rs:241)
+    n1: 48 0x110BD1: exchange_malloc (alloc.rs:330)
+     n1: 48 0x110BD1: new<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::collections::linked_list::LinkedList<i32, alloc::alloc::Global>>>> (boxed.rs:217)
+      n1: 48 0x110BD1: new<std::sync::mutex::Mutex<alloc::collections::linked_list::LinkedList<i32, alloc::alloc::Global>>> (sync.rs:389)
+       n1: 48 0x110BD1: linked_list_opt1::main (main.rs:8)
+        n1: 48 0x110F72: call_once<fn(), ()> (function.rs:250)
+         n1: 48 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+          n1: 48 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+           n1: 48 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+            n1: 48 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+             n1: 48 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+              n1: 48 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+               n1: 48 0x1297D6: {closure#2} (rt.rs:148)
+                n1: 48 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                 n1: 48 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                  n1: 48 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                   n1: 48 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                    n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 48 0x111904: alloc (alloc.rs:98)
+  n1: 48 0x111904: alloc_impl (alloc.rs:181)
+   n1: 48 0x111904: allocate (alloc.rs:241)
+    n1: 48 0x111904: exchange_malloc (alloc.rs:330)
+     n1: 48 0x111904: new<alloc::sync::ArcInner<std::thread::Packet<()>>> (boxed.rs:217)
+      n1: 48 0x111904: new<std::thread::Packet<()>> (sync.rs:389)
+       n1: 48 0x111904: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:480)
+        n1: 48 0x111904: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+         n1: 48 0x111904: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+          n1: 48 0x111904: std::thread::spawn (mod.rs:686)
+           n1: 48 0x110C0F: linked_list_opt1::main (main.rs:12)
+            n1: 48 0x110F72: call_once<fn(), ()> (function.rs:250)
+             n1: 48 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+              n1: 48 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+               n1: 48 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                n1: 48 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                 n1: 48 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                  n1: 48 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                   n1: 48 0x1297D6: {closure#2} (rt.rs:148)
+                    n1: 48 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                     n1: 48 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                      n1: 48 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                       n1: 48 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                        n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 32 0x111A0A: alloc (alloc.rs:98)
+  n1: 32 0x111A0A: alloc_impl (alloc.rs:181)
+   n1: 32 0x111A0A: allocate (alloc.rs:241)
+    n1: 32 0x111A0A: exchange_malloc (alloc.rs:330)
+     n1: 32 0x111A0A: new<std::thread::{impl#0}::spawn_unchecked_::{closure_env#1}<linked_list_opt1::main::{closure_env#0}, ()>> (boxed.rs:217)
+      n1: 32 0x111A0A: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:566)
+       n1: 32 0x111A0A: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+        n1: 32 0x111A0A: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+         n1: 32 0x111A0A: std::thread::spawn (mod.rs:686)
+          n1: 32 0x110C0F: linked_list_opt1::main (main.rs:12)
+           n1: 32 0x110F72: call_once<fn(), ()> (function.rs:250)
+            n1: 32 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+             n1: 32 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+              n1: 32 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+               n1: 32 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                n1: 32 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                 n1: 32 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                  n1: 32 0x1297D6: {closure#2} (rt.rs:148)
+                   n1: 32 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                    n1: 32 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                     n1: 32 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                      n1: 32 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                       n0: 32 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 32 0x4897C04: _dlerror_run (dlerror.c:148)
+  n1: 32 0x4897524: dlsym (dlsym.c:70)
+   n1: 32 0x10F36A: fetch (weak.rs:138)
+    n1: 32 0x10F36A: std::sys::unix::weak::DlsymWeak<F>::initialize (weak.rs:125)
+     n1: 32 0x131E7B: get<unsafe extern "C" fn(*const libc::unix::linux_like::linux::gnu::b64::x86_64::pthread_attr_t) -> usize> (weak.rs:92)
+      n1: 32 0x131E7B: min_stack_size (thread.rs:996)
+       n1: 32 0x131E7B: std::sys::unix::thread::Thread::new (thread.rs:69)
+        n1: 32 0x111A3E: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:563)
+         n1: 32 0x111A3E: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+          n1: 32 0x111A3E: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+           n1: 32 0x111A3E: std::thread::spawn (mod.rs:686)
+            n1: 32 0x110C0F: linked_list_opt1::main (main.rs:12)
+             n1: 32 0x110F72: call_once<fn(), ()> (function.rs:250)
+              n1: 32 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+               n1: 32 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+                n1: 32 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                 n1: 32 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                  n1: 32 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                   n1: 32 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                    n1: 32 0x1297D6: {closure#2} (rt.rs:148)
+                     n1: 32 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                      n1: 32 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                       n1: 32 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                        n1: 32 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                         n0: 32 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n0: 21 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=460318
+mem_heap_B=1861
+mem_heap_extra_B=259
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=460350
+mem_heap_B=1845
+mem_heap_extra_B=251
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=461505
+mem_heap_B=1813
+mem_heap_extra_B=243
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=463743
+mem_heap_B=1765
+mem_heap_extra_B=235
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=463836
+mem_heap_B=1717
+mem_heap_extra_B=227
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=468815
+mem_heap_B=1693
+mem_heap_extra_B=211
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=468859
+mem_heap_B=1669
+mem_heap_extra_B=195
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=468903
+mem_heap_B=1645
+mem_heap_extra_B=179
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=468947
+mem_heap_B=1621
+mem_heap_extra_B=163
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=468991
+mem_heap_B=1597
+mem_heap_extra_B=147
+mem_stacks_B=0
+heap_tree=detailed
+n8: 1597 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x10F801: alloc (alloc.rs:98)
+  n1: 1024 0x10F801: alloc_impl (alloc.rs:181)
+   n1: 1024 0x10F801: allocate (alloc.rs:241)
+    n1: 1024 0x10F801: allocate_in<u8, alloc::alloc::Global> (raw_vec.rs:184)
+     n1: 1024 0x10F801: with_capacity_in<u8, alloc::alloc::Global> (raw_vec.rs:130)
+      n1: 1024 0x10F801: with_capacity_in<u8, alloc::alloc::Global> (mod.rs:670)
+       n1: 1024 0x10F801: with_capacity<u8> (mod.rs:479)
+        n1: 1024 0x10F801: with_capacity<std::io::stdio::StdoutRaw> (bufwriter.rs:115)
+         n1: 1024 0x10F801: with_capacity<std::io::stdio::StdoutRaw> (linewriter.rs:109)
+          n1: 1024 0x10F801: new<std::io::stdio::StdoutRaw> (linewriter.rs:89)
+           n1: 1024 0x10F801: {closure#0} (stdio.rs:618)
+            n1: 1024 0x10F801: {closure#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}> (once_lock.rs:170)
+             n1: 1024 0x10F801: {closure#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !> (once_lock.rs:296)
+              n1: 1024 0x10F801: {closure#0}<std::sync::once_lock::{impl#0}::initialize::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !>> (once.rs:208)
+               n1: 1024 0x10F801: std::sys_common::once::futex::Once::call (futex.rs:124)
+                n1: 1024 0x10EEF9: call_once_force<std::sync::once_lock::{impl#0}::initialize::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !>> (once.rs:208)
+                 n1: 1024 0x10EEF9: std::sync::once_lock::OnceLock<T>::initialize (once_lock.rs:295)
+                  n1: 1024 0x12BC74: get_or_try_init<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}>, !> (once_lock.rs:218)
+                   n1: 1024 0x12BC74: get_or_init<std::sync::remutex::ReentrantMutex<core::cell::RefCell<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>>, std::io::stdio::stdout::{closure_env#0}> (once_lock.rs:170)
+                    n1: 1024 0x12BC74: stdout (stdio.rs:618)
+                     n1: 1024 0x12BC74: print_to<std::io::stdio::Stdout> (stdio.rs:1020)
+                      n1: 1024 0x12BC74: std::io::stdio::_print (stdio.rs:1097)
+                       n1: 1024 0x111101: {closure#0} (main.rs:16)
+                        n1: 1024 0x111101: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+                         n1: 1024 0x111DD2: UnknownInlinedFun (mod.rs:529)
+                          n1: 1024 0x111DD2: UnknownInlinedFun (unwind_safe.rs:271)
+                           n1: 1024 0x111DD2: UnknownInlinedFun (panicking.rs:504)
+                            n1: 1024 0x111DD2: UnknownInlinedFun (panicking.rs:468)
+                             n1: 1024 0x111DD2: catch_unwind<core::panic::unwind_safe::AssertUnwindSafe<std::thread::{impl#0}::spawn_unchecked_::{closure#1}::{closure_env#0}<linked_list_opt1::main::{closure_env#0}, ()>>, ()> (panic.rs:142)
+                              n1: 1024 0x111DD2: {closure#1}<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:528)
+                               n1: 1024 0x111DD2: core::ops::function::FnOnce::call_once{{vtable-shim}} (function.rs:250)
+                                n1: 1024 0x131FA4: call_once<(), dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global> (boxed.rs:2007)
+                                 n1: 1024 0x131FA4: call_once<(), alloc::boxed::Box<dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global>, alloc::alloc::Global> (boxed.rs:2007)
+                                  n1: 1024 0x131FA4: std::sys::unix::thread::Thread::new::thread_start (thread.rs:108)
+                                   n1: 1024 0x487B608: start_thread (pthread_create.c:477)
+                                    n0: 1024 0x49BB352: clone (clone.S:95)
+ n1: 288 0x40149DA: allocate_dtv (dl-tls.c:286)
+  n1: 288 0x40149DA: _dl_allocate_tls (dl-tls.c:532)
+   n1: 288 0x487C322: allocate_stack (allocatestack.c:622)
+    n1: 288 0x487C322: pthread_create@@GLIBC_2.2.5 (pthread_create.c:660)
+     n1: 288 0x131DEE: std::sys::unix::thread::Thread::new (thread.rs:87)
+      n1: 288 0x111A3E: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:563)
+       n1: 288 0x111A3E: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+        n1: 288 0x111A3E: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+         n1: 288 0x111A3E: std::thread::spawn (mod.rs:686)
+          n1: 288 0x110C0F: linked_list_opt1::main (main.rs:12)
+           n1: 288 0x110F72: call_once<fn(), ()> (function.rs:250)
+            n1: 288 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+             n1: 288 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+              n1: 288 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+               n1: 288 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                n1: 288 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                 n1: 288 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                  n1: 288 0x1297D6: {closure#2} (rt.rs:148)
+                   n1: 288 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                    n1: 288 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                     n1: 288 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                      n1: 288 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                       n0: 288 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 120 0x111072: UnknownInlinedFun (alloc.rs:98)
+  n1: 120 0x111072: UnknownInlinedFun (alloc.rs:181)
+   n1: 120 0x111072: UnknownInlinedFun (alloc.rs:241)
+    n1: 120 0x111072: UnknownInlinedFun (mod.rs:375)
+     n1: 120 0x111072: UnknownInlinedFun (boxed.rs:486)
+      n1: 120 0x111072: UnknownInlinedFun (boxed.rs:448)
+       n1: 120 0x111072: UnknownInlinedFun (boxed.rs:382)
+        n1: 120 0x111072: UnknownInlinedFun (linked_list.rs:894)
+         n1: 120 0x111072: {closure#0} (main.rs:15)
+          n1: 120 0x111072: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+           n1: 120 0x111DD2: UnknownInlinedFun (mod.rs:529)
+            n1: 120 0x111DD2: UnknownInlinedFun (unwind_safe.rs:271)
+             n1: 120 0x111DD2: UnknownInlinedFun (panicking.rs:504)
+              n1: 120 0x111DD2: UnknownInlinedFun (panicking.rs:468)
+               n1: 120 0x111DD2: catch_unwind<core::panic::unwind_safe::AssertUnwindSafe<std::thread::{impl#0}::spawn_unchecked_::{closure#1}::{closure_env#0}<linked_list_opt1::main::{closure_env#0}, ()>>, ()> (panic.rs:142)
+                n1: 120 0x111DD2: {closure#1}<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:528)
+                 n1: 120 0x111DD2: core::ops::function::FnOnce::call_once{{vtable-shim}} (function.rs:250)
+                  n1: 120 0x131FA4: call_once<(), dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global> (boxed.rs:2007)
+                   n1: 120 0x131FA4: call_once<(), alloc::boxed::Box<dyn core::ops::function::FnOnce<(), Output=()>, alloc::alloc::Global>, alloc::alloc::Global> (boxed.rs:2007)
+                    n1: 120 0x131FA4: std::sys::unix::thread::Thread::new::thread_start (thread.rs:108)
+                     n1: 120 0x487B608: start_thread (pthread_create.c:477)
+                      n0: 120 0x49BB352: clone (clone.S:95)
+ n1: 48 0x110BD1: alloc (alloc.rs:98)
+  n1: 48 0x110BD1: alloc_impl (alloc.rs:181)
+   n1: 48 0x110BD1: allocate (alloc.rs:241)
+    n1: 48 0x110BD1: exchange_malloc (alloc.rs:330)
+     n1: 48 0x110BD1: new<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::collections::linked_list::LinkedList<i32, alloc::alloc::Global>>>> (boxed.rs:217)
+      n1: 48 0x110BD1: new<std::sync::mutex::Mutex<alloc::collections::linked_list::LinkedList<i32, alloc::alloc::Global>>> (sync.rs:389)
+       n1: 48 0x110BD1: linked_list_opt1::main (main.rs:8)
+        n1: 48 0x110F72: call_once<fn(), ()> (function.rs:250)
+         n1: 48 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+          n1: 48 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+           n1: 48 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+            n1: 48 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+             n1: 48 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+              n1: 48 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+               n1: 48 0x1297D6: {closure#2} (rt.rs:148)
+                n1: 48 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                 n1: 48 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                  n1: 48 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                   n1: 48 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                    n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 48 0x129E33: alloc (alloc.rs:98)
+  n1: 48 0x129E33: alloc_impl (alloc.rs:181)
+   n1: 48 0x129E33: allocate (alloc.rs:241)
+    n1: 48 0x129E33: {closure#0}<std::thread::Inner> (sync.rs:532)
+     n1: 48 0x129E33: allocate_for_layout<core::mem::maybe_uninit::MaybeUninit<std::thread::Inner>, alloc::sync::{impl#14}::new_uninit::{closure_env#0}<std::thread::Inner>, fn(*mut u8) -> *mut alloc::sync::ArcInner<core::mem::maybe_uninit::MaybeUninit<std::thread::Inner>>> (sync.rs:1800)
+      n1: 48 0x129E33: new_uninit<std::thread::Inner> (sync.rs:530)
+       n2: 48 0x129E33: std::thread::Thread::new (mod.rs:1284)
+        n1: 48 0x1297C2: init (rt.rs:104)
+         n1: 48 0x1297C2: {closure#1} (rt.rs:147)
+          n1: 48 0x1297C2: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+           n1: 48 0x1297C2: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+            n1: 48 0x1297C2: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+             n1: 48 0x1297C2: std::rt::lang_start_internal (rt.rs:147)
+              n0: 48 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 32 0x4897C04: _dlerror_run (dlerror.c:148)
+  n1: 32 0x4897524: dlsym (dlsym.c:70)
+   n1: 32 0x10F36A: fetch (weak.rs:138)
+    n1: 32 0x10F36A: std::sys::unix::weak::DlsymWeak<F>::initialize (weak.rs:125)
+     n1: 32 0x131E7B: get<unsafe extern "C" fn(*const libc::unix::linux_like::linux::gnu::b64::x86_64::pthread_attr_t) -> usize> (weak.rs:92)
+      n1: 32 0x131E7B: min_stack_size (thread.rs:996)
+       n1: 32 0x131E7B: std::sys::unix::thread::Thread::new (thread.rs:69)
+        n1: 32 0x111A3E: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:563)
+         n1: 32 0x111A3E: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+          n1: 32 0x111A3E: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+           n1: 32 0x111A3E: std::thread::spawn (mod.rs:686)
+            n1: 32 0x110C0F: linked_list_opt1::main (main.rs:12)
+             n1: 32 0x110F72: call_once<fn(), ()> (function.rs:250)
+              n1: 32 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+               n1: 32 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+                n1: 32 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                 n1: 32 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                  n1: 32 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                   n1: 32 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                    n1: 32 0x1297D6: {closure#2} (rt.rs:148)
+                     n1: 32 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                      n1: 32 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                       n1: 32 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                        n1: 32 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                         n0: 32 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 32 0x48E31E2: __cxa_thread_atexit_impl (cxa_thread_atexit_impl.c:106)
+  n1: 32 0x12EC70: register_dtor<std::sys_common::thread_info::ThreadInfo> (fast_local.rs:158)
+   n1: 32 0x12EC70: __getit (fast_local.rs:54)
+    n1: 32 0x12EC70: try_with<std::sys_common::thread_info::ThreadInfo, std::sys_common::thread_info::set::{closure_env#0}, ()> (local.rs:269)
+     n1: 32 0x12EC70: with<std::sys_common::thread_info::ThreadInfo, std::sys_common::thread_info::set::{closure_env#0}, ()> (local.rs:246)
+      n2: 32 0x12EC70: std::sys_common::thread_info::set (thread_info.rs:44)
+       n1: 32 0x1297D0: init (rt.rs:105)
+        n1: 32 0x1297D0: {closure#1} (rt.rs:147)
+         n1: 32 0x1297D0: do_call<std::rt::lang_start_internal::{closure_env#1}, ()> (panicking.rs:504)
+          n1: 32 0x1297D0: try<(), std::rt::lang_start_internal::{closure_env#1}> (panicking.rs:468)
+           n1: 32 0x1297D0: catch_unwind<std::rt::lang_start_internal::{closure_env#1}, ()> (panic.rs:142)
+            n1: 32 0x1297D0: std::rt::lang_start_internal (rt.rs:147)
+             n0: 32 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 5 in 9 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=469035
+mem_heap_B=1573
+mem_heap_extra_B=131
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=469079
+mem_heap_B=1549
+mem_heap_extra_B=115
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=469123
+mem_heap_B=1525
+mem_heap_extra_B=99
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=469167
+mem_heap_B=1501
+mem_heap_extra_B=83
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=469211
+mem_heap_B=1477
+mem_heap_extra_B=67
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=469262
+mem_heap_B=1429
+mem_heap_extra_B=59
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=469402
+mem_heap_B=405
+mem_heap_extra_B=51
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=469647
+mem_heap_B=400
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=469684
+mem_heap_B=352
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=469716
+mem_heap_B=320
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n3: 320 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 288 0x40149DA: allocate_dtv (dl-tls.c:286)
+  n1: 288 0x40149DA: _dl_allocate_tls (dl-tls.c:532)
+   n1: 288 0x487C322: allocate_stack (allocatestack.c:622)
+    n1: 288 0x487C322: pthread_create@@GLIBC_2.2.5 (pthread_create.c:660)
+     n1: 288 0x131DEE: std::sys::unix::thread::Thread::new (thread.rs:87)
+      n1: 288 0x111A3E: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:563)
+       n1: 288 0x111A3E: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+        n1: 288 0x111A3E: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+         n1: 288 0x111A3E: std::thread::spawn (mod.rs:686)
+          n1: 288 0x110C0F: linked_list_opt1::main (main.rs:12)
+           n1: 288 0x110F72: call_once<fn(), ()> (function.rs:250)
+            n1: 288 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+             n1: 288 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+              n1: 288 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+               n1: 288 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                n1: 288 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                 n1: 288 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                  n1: 288 0x1297D6: {closure#2} (rt.rs:148)
+                   n1: 288 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                    n1: 288 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                     n1: 288 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                      n1: 288 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                       n0: 288 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n1: 32 0x4897C04: _dlerror_run (dlerror.c:148)
+  n1: 32 0x4897524: dlsym (dlsym.c:70)
+   n1: 32 0x10F36A: fetch (weak.rs:138)
+    n1: 32 0x10F36A: std::sys::unix::weak::DlsymWeak<F>::initialize (weak.rs:125)
+     n1: 32 0x131E7B: get<unsafe extern "C" fn(*const libc::unix::linux_like::linux::gnu::b64::x86_64::pthread_attr_t) -> usize> (weak.rs:92)
+      n1: 32 0x131E7B: min_stack_size (thread.rs:996)
+       n1: 32 0x131E7B: std::sys::unix::thread::Thread::new (thread.rs:69)
+        n1: 32 0x111A3E: spawn_unchecked_<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:563)
+         n1: 32 0x111A3E: spawn_unchecked<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:457)
+          n1: 32 0x111A3E: spawn<linked_list_opt1::main::{closure_env#0}, ()> (mod.rs:389)
+           n1: 32 0x111A3E: std::thread::spawn (mod.rs:686)
+            n1: 32 0x110C0F: linked_list_opt1::main (main.rs:12)
+             n1: 32 0x110F72: call_once<fn(), ()> (function.rs:250)
+              n1: 32 0x110F72: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:154)
+               n1: 32 0x111278: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf55bbd81b5c16264E.llvm.9676334717226400128 (rt.rs:166)
+                n1: 32 0x1297D6: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                 n1: 32 0x1297D6: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:504)
+                  n1: 32 0x1297D6: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:468)
+                   n1: 32 0x1297D6: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:142)
+                    n1: 32 0x1297D6: {closure#2} (rt.rs:148)
+                     n1: 32 0x1297D6: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:504)
+                      n1: 32 0x1297D6: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:468)
+                       n1: 32 0x1297D6: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:142)
+                        n1: 32 0x1297D6: std::rt::lang_start_internal (rt.rs:148)
+                         n0: 32 0x110E4B: main (in /home/cbq2kor/Desktop/DevSpace/Test/RDS/Rust/LinkedList/linked_list_opt1/target/debug/linked_list_opt1)
+ n0: 0 in 14 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=476215
+mem_heap_B=288
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=477703
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
